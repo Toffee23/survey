@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body-tag">
+        <h3>The body of the text, now see</h3>
+        <h3>This is the body that we are trying to blur</h3>
+
+    </div>
+    <div class="container-wrapper">
+
+
+    <div class="container">
+        <div class="survey-slider ">
+            <div class="questions"> 
+              <div class="question mySlides fade">
+                <div class="">
+                   <h3>1 of 8</h3>
+                   <div class="dots-container" >
+                    <span class="dot dot-colored" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                  </div>
+                </div>
+                <div class="inner-width">
+                <h2 class="heading">What do you think?</h2>
+                <div class="">
+                    <div class="">
+                        <p class="question-tag">Question 1</p>
+                        <h6 class="paragraph">On a scale of 1 to 10, how would you rate the clarity of the course instructions?</h6>
+                    </div>
+                    <div class="button-container">
+                        <div class="flex">
+                            <button onclick="SelectOption(0)" class="button option" type="button">1</button>
+                            <button  onclick="SelectOption(1)" class="button option" type="button">2</button>
+                            <button onclick="SelectOption(2)"  class="button option" type="button">3</button>
+                            <button onclick="SelectOption(3)"  class="button option" type="button">4</button>
+                            <button  onclick="SelectOption(4)" class="button option" type="button">5</button>
+                            <button  onclick="SelectOption(5)" class="button option" type="button">6</button>
+                            <button onclick="SelectOption(6)"  class="button option" type="button">7</button>
+                            <button  onclick="SelectOption(7)" class="button option" type="button">8</button>
+                            <button  onclick="SelectOption(8)" class="button option" type="button">9</button>
+                            <button  onclick="SelectOption(9)" class="button option" type="button">10</button>
+                        </div>                    
+                        <div class="spread-content-length">
+                            <p class="">Not Clear at all</p>
+                            <p class="">Neutral</p>
+                            <p class="">Extremely Clear</p>
+                        </div>                     
+                    </div>
+                </div>
+                </div>
+                
+              </div>
+              <div class="question mySlides fade">
+                <div class="">
+                   <h3>2 of 8</h3>
+                   <div class="dots-container" >
+                    <span class="dot dot-colored" onclick="currentSlide(1)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                  </div>
+                </div>
+                <div class="inner-width">
+                <h2 class="heading">What do you think?</h2>
+                <div class="">
+                    <div class="">
+                        <p class="question-tag">Question 2</p>
+                        <h6 class="paragraph">Did the course meet your expectation?</h6>
+                    </div>
+                    <div class="button-container">
+                        <div class="flex">
+                            <button  onclick="SelectOption(10)" class="button option" type="button">Did not meet requirements</button>
+                            <button onclick="SelectOption(11)" class="button option" type="button">Somewhat meet expectations</button>
+                            <button onclick="SelectOption(12)" class="button option" type="button">Meet expectations</button>
+                            <button onclick="SelectOption(13)" class="button option" type="button">Exceeded expectations</button>
+                        </div>                                         
+                    </div>
+                </div>
+                </div>
+                
+              </div>
+              <div class="question mySlides fade">
+                <div class="">
+                   <h3>3 of 8</h3>
+                   <div class="dots-container" >
+                    <span class="dot dot-colored" onclick="currentSlide(1)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(2)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                  </div>
+                </div>
+                <div class="inner-width">
+                <h2 class="heading">What do you think?</h2>
+                <div class="">
+                    <div class="">
+                        <p class="question-tag">Question 3</p>
+                        <h6 class="paragraph">How likely are you to apply the knowledge gained from this course to your work?</h6>
+                    </div>
+                    <div class="button-container">
+                        <div class="flex">
+                            <button onclick="SelectOption(14)" class="button option" type="button">Very unlikely</button>
+                            <button onclick="SelectOption(15)" class="button option" type="button">Unlikely</button>
+                            <button onclick="SelectOption(16)" class="button option" type="button">Neutral</button>
+                            <button onclick="SelectOption(17)" class="button option" type="button">Likely</button>
+                            <button onclick="SelectOption(18)" class="button option" type="button">Very likely</button>
+                        </div>                                         
+                    </div>
+                </div>
+                </div>
+                
+              </div>
+              <div class="question mySlides fade">
+                <div class="">
+                   <h3>4 of 8</h3>
+                   <div class="dots-container" >
+                    <span class="dot dot-colored" onclick="currentSlide(1)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(2)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(3)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                  </div>
+                </div>
+                <div class="inner-width">
+                <h2 class="heading">What do you think?</h2>
+                <div class="">
+                    <div class="">
+                        <p class="question-tag">Question 4</p>
+                        <h6 class="paragraph">Were the assesment and assignment relevant to the course contentment?</h6>
+                    </div>
+                    <div class="button-container">
+                        <div class="flex-no-justify">
+                            <button  onclick="SelectOption(19)"class="button emoji-flex" type="button">
+                                <div class="middle"> <p class="emoji-text"> Yes</p> <img class="emoji" src="./assets/thumbsup.svg" alt=""></div> </button>
+                            <button onclick="SelectOption(20)" class="button emoji-flex" type="button">
+                                <div class="middle"> <p class="emoji-text"> No</p> <img class="emoji" src="./assets/thumbsdown.svg" alt=""></div> </button>
+                            </button>
+                        </div>                                         
+                    </div>
+                </div>
+                </div>
+                
+              </div>
+              <div class="question mySlides fade">
+                <div class="">
+                   <h3>5 of 8</h3>
+                   <div class="dots-container" >
+                    <span class="dot dot-colored" onclick="currentSlide(1)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(2)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(3)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(4)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                  </div>
+                </div>
+                <div class="inner-width">
+                <h2 class="heading">What do you think?</h2>
+                <div class="">
+                    <div class="">
+                        <p class="question-tag">Question 5</p>
+                        <h6 class="paragraph">Did you encounter any technical details while accessing the course materials?</h6>
+                    </div>
+                    <div class="button-container">
+                        <div class="flex-no-justify">
+                            <button onclick="SelectOption(21)"  class="button emoji-flex" type="button">
+                                <div class="middle"> <p class="emoji-text"> Yes</p> <img class="emoji" src="./assets/thumbsup.svg" alt=""></div> </button>
+                            <button  onclick="SelectOption(22)" class="button emoji-flex" type="button">
+                                <div class="middle"> <p class="emoji-text"> No</p> <img class="emoji" src="./assets/thumbsdown.svg" alt=""></div> </button>
+                            </button>
+                        </div>                                         
+                    </div>
+                </div>
+                </div>
+                
+              </div>
+              <div class="question mySlides fade">
+                <div class="">
+                   <h3>6 of 8</h3>
+                   <div class="dots-container" >
+                    <span class="dot dot-colored" onclick="currentSlide(1)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(2)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(3)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(4)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(5)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                  </div>
+                </div>
+                <div class="inner-width">
+                <h2 class="heading">What do you think?</h2>
+                <div class="">
+                    <div class="">
+                        <p class="question-tag">Question 6</p>
+                        <h6 class="paragraph"> How would you rate the responsiveness of our customer support for any issues you faced during the course?</h6>
+                    </div>
+                    <div class="button-container">
+                        <div class="flex">
+                            <button onclick="SelectOption(23)" class="button" type="button">Poor</button>
+                            <button onclick="SelectOption(24)" class="button" type="button">Below average</button>
+                            <button onclick="SelectOption(25)" class="button" type="button">Average</button>
+                            <button onclick="SelectOption(26)" class="button" type="button">Good</button>
+                            <button onclick="SelectOption(27)" class="button" type="button">Excellent</button>
+                        </div>                                         
+                    </div>
+                </div>
+                </div>
+                
+              </div>
+              <div class="question mySlides fade">
+                <div class="">
+                   <h3>7 of 8</h3>
+                   <div class="dots-container" >
+                    <span class="dot dot-colored" onclick="currentSlide(1)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(2)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(3)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(4)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(5)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(6)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                  </div>
+                </div>
+                <div class="inner-width">
+                <h2 class="heading">What do you think?</h2>
+                <div class="">
+                    <div class="">
+                        <p class="question-tag">Question 7</p>
+                        <h6 class="paragraph">Did you find the course duration suitable for the content covered?</h6>
+                    </div>
+                    <div class="button-container">
+                        <div class="flex-no-justify">
+                            <button onclick="SelectOption(28)" class="button emoji-flex" type="button">
+                                Too Short
+                            </button>
+                            <button onclick="SelectOption(29)" class="button emoji-flex" type="button">
+                                Just Right
+                            </button>
+                            <button onclick="SelectOption(30)" class="button emoji-flex" type="button">
+                                Too Long
+                            </button>
+                        </div>                                         
+                    </div>
+                </div>
+                </div>
+                
+              </div>
+              <div class="question mySlides fade">
+                <div class="">
+                   <h3>8 of 8</h3>
+                   <div class="dots-container" >
+                    <span class="dot dot-colored" onclick="currentSlide(1)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(2)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(3)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(4)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(5)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(6)"></span>
+                    <span class="dot dot-colored" onclick="currentSlide(7)"></span>
+                    <span class="dot dot-colored onclick="currentSlide(8)"></span>
+                  </div>
+                </div>
+                <div class="inner-width">
+                <h2 class="heading">What do you think?</h2>
+                <div class="">
+                    <div class="">
+                        <p class="question-tag">Question 8</p>
+                        <h6 class="paragraph">Please share any challenges or commendations on the course and any suggestions for improvement.</h6>
+                    </div>
+                    <div class="button-container">
+                             <textarea class="recommendation" name="" placeholder="Enter recommendation here" id="" cols="30" rows="5"></textarea>                                   
+                    </div>
+                </div>
+                </div>
+                
+              </div>
+              <!-- Add more questions as needed -->
+              <div class="spread-content">
+                <button id="prev-btn" class="btn prev-btn prev" onclick="plusSlides(-1)">Previous</button>
+                <button id="next-btn" class="btn next-btn next" onclick="plusSlides(1)">Next</button>
+             </div>
+            </div>
+            
+        </div>
+    </div>  
+          
+    </div>
+    
+</body>
+<script defer src="scripts.js"></script>
+</html>

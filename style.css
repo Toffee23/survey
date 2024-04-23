@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;   
+}
+.body-tag{
+    min-height: 100vh;
+    filter: blur(8px);
+    --webkit-filter:blur(8px);
+}
+.container-wrapper{
+    position: absolute;
+    left: 0;
+    right: 0;
+    right: 0;
+    bottom: 0;
+}
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: transparent;
+    
+}
+
+.survey-slider{
+    background: white;
+    border: 1px solid black; 
+    border-radius: 10px;
+    /* box-shadow: 3px 4px 10px 1px black; */
+    min-height: 350px;
+    position: absolute; 
+    padding: 15px 20px;
+    width: 70%;
+}
+/* .question{
+    padding: ;
+} */
+
+.questions{
+    min-height: 350px;
+    /* height: 100%; */
+    width: 100%;
+    position: relative;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    width: 100%;
+    /* transition: transform 0.5s ease-in-out; */
+}
+
+/* .question.active{
+    transform: translateX(0%);
+}
+.question.inactive{
+    transform: translateX(100%);
+}  */
+.inner-width{
+    padding:0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.button-container{
+    width: 100%;
+}
+.dots-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+   margin: .8rem 0 1.2rem 0;
+}
+.spread-content-length{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.spread-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button{
+    background: rgb(232, 233, 232);
+    padding: 8px 14px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.heading{
+    margin-top: 1.3rem;
+    color: rgb(2, 125, 2);
+    font-size: 1.7rem;
+    font-weight: 800;
+}
+.question-tag{
+    color: #949494;
+}
+.paragraph{
+    font-size: 1.06rem;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: .9rem;
+    gap: 1.1rem;
+}
+.btn{
+    padding: 8px 25px;
+    outline: none;
+    
+}
+.prev-btn{
+    border: 1px solid rgb(2, 125, 2);
+    border-radius: 5px;
+        text-transform: uppercase;
+    color: rgb(2, 125, 2);
+    background: white;
+    cursor: pointer;
+}
+.next-btn{
+    border: 1px solid rgb(2, 125, 2);
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    background: rgb(2, 125, 2);
+    cursor: pointer;
+}
+
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover {
+    border: 1px solid rgb(2, 125, 2);
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    background: rgb(2, 125, 2);
+  }
+  .next:hover{
+    border: 1px solid rgb(2, 125, 2);
+    border-radius: 5px;
+        text-transform: uppercase;
+    color: rgb(2, 125, 2);
+    background: white;
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 5px;
+    width: 100%;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 10%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .dot-colored{
+    background-color:rgb(2, 125, 2) ;
+  }
+  
+  /* .active, .dot:hover {
+    background-color: #717171;
+  } */
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  .flex-no-justify{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ .middle{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+ }
+
+  .emoji-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    width: 50%;
+  }
+  .emoji{
+    height: 30px;
+  }
+  .recommendation{
+    padding: 3px 9px;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+  }
+
+.selected{
+    background-color: rgb(185, 250, 185);
+}
